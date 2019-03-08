@@ -10,12 +10,12 @@ then run pytest seamlessly on packages with compiled extensions.
 
 To use this, run pytest with::
 
-    pytest --inplace-build <other arguments>
+    pytest --build-inplace <other arguments>
 
 or add::
 
     [tool:pytest]
-    addopts = --inplace-build
+    addopts = --build-inplace
 
 to your ``setup.cfg`` file for the option to always be added automatically.
 
