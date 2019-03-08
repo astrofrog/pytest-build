@@ -18,3 +18,7 @@ or add::
     addopts = --inplace-build
 
 to your ``setup.cfg`` file for the option to always be added automatically.
+
+Note that if you have entry points in your package that need to be installed
+for the tests to run, you will still need to make sure ``pip install -e .``
+has been run for your package.
